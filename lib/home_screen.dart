@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 
-import 'line_chart_sample1.dart';
+import 'line_chart_sample1_simple.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: LineChartSample1(),
+    return Scaffold(
+      appBar: AppBar(title: const Text('Demo')),
+      body: const LineChartSample1(),
     );
   }
 }
