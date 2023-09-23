@@ -169,7 +169,7 @@ class LineChartSample1State extends State<LineChartSample1> {
           child: Padding(
             padding: EdgeInsets.only(right: 16, left: 6),
             child: Stack(
-              children: [_LineChart(), BarChartSample3()],
+              children: [BarChartSample3(), _LineChart()],
             ),
           ),
         ),
